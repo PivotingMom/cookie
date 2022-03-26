@@ -6,63 +6,10 @@
 }
 
 body {
-  width: 100vh;
-  height: 100vh;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 10% 80% 10%;
-      grid-template-rows: 10% 80% 10%;
-  -ms-grid-columns: 100%;
-      grid-template-columns: 100%;
-}
-
-h2 {
-  color: #fff;
-}
-
-.head, .left, .right, .body, .footer {
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-}
-
-.head {
-  background-color: #4913df;
-}
-
-.footer {
-  background-color: orangered;
-}
-
-.container {
-  display: -ms-grid;
-  display: grid;
-      grid-template-areas: "left-bar left-bar body body body body body body right-bar right-bar";
-}
-
-.left, .right {
-  background-color: #b33434;
-}
-
-.left {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  grid-area: left-bar;
-}
-
-.right {
-  -ms-grid-row: 1;
-  -ms-grid-column: 9;
-  -ms-grid-column-span: 2;
-  grid-area: right-bar;
-}
-
-.body {
   background-color: aqua;
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  -ms-grid-column-span: 6;
-  grid-area: body;
+}
+
+body h2 {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

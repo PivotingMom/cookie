@@ -6,13 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>wk10b</title>
     <link rel="stylesheet" href="/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
     <script src="/js/selection.js" defer></script>
   </head>
   <body>
-    <h2 class="title">wk10b: Saving State with Cookies</h2>
+    <h2>wk10b: selection page with Cookies</h2>
+
     <a href="/index.html">home</a>
     <a href="/selection.html">selection</a>
+
+    <select id="colorTheme" onchange="setColorCookie()">
+      <option value="Select Color">Select Color</option>
+      <option value="red">Red</option>
+      <option value="green">green</option>
+      <option value="blue">Blue</option>
+    </select>
   </body>
 </html>
